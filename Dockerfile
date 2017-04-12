@@ -16,3 +16,5 @@ RUN apt-get update && \
 RUN pip3 install --upgrade pip
 
 RUN pip3 install Flask==0.12
+
+EXPOSE 8080
