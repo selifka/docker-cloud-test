@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def run_flask():
-  return 'UNH698 Website'
-  
-@app.route('/home')
-def home():
   return render_template('home.html')
+  
+@app.route('/linkingPage')
+def linkingPage():
+  return render_template('linkingPage.html')
   
 @app.route('/coffee')
 def coffee():
