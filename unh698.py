@@ -6,10 +6,6 @@ app = Flask(__name__)
 def run_flask():
   return render_template('home.html')
   
-@app.route('/linkingPage')
-def linkingPage():
-  return render_template('linkingPage.html')
-  
 @app.route('/coffee')
 def coffee():
   return render_template('coffee.html')
