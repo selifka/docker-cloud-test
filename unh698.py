@@ -7,7 +7,8 @@ def run_flask():
   
 @app.route('/coffee')
 def coffee():
-  return render_template('coffee.html')
+  #return render_template('coffee.html')
+  pass
 
 if __name__ == '__main__':
   app.run(debug=True, host='0.0.0.0')
